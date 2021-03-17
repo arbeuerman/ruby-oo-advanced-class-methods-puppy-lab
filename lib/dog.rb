@@ -13,6 +13,7 @@ class Dog
         save 
     end 
 
+    #class functions
     def self.all 
         @@all
     end 
@@ -27,6 +28,7 @@ class Dog
         end 
     end 
 
+    #instance functions
     def save
         @@all << self
     end 
